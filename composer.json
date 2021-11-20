@@ -1,0 +1,16 @@
+{
+    "name": "vendor/miniframework",
+    "require": {
+        "php": ">= 7.0"
+    },
+    "authors": [{
+        "name": "Julio Cesar JR",
+        "email": "jcjunior92.jj@gmail.com"
+    }],
+    "autoload": {
+        "psr-4": {
+            "App\\": "App/",
+            "MF\\": "vendor/MF/"
+        }
+    }
+}
